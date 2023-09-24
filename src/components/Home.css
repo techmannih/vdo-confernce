@@ -1,0 +1,10 @@
+.hero_logo{
+    background-image: url(../img//meetings-software-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.room_name.room{
+    display: flex;
+    flex-direction: column;
+}
