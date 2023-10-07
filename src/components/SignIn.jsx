@@ -22,7 +22,7 @@ const SignInPage = () => {
     .then((userCredential) => {
         // Signed in
         const user = userCredential.user;
-        navigate("/home1")
+        navigate("/Home")
         console.log(user);
     })
     .catch((error) => {
@@ -73,12 +73,7 @@ const SignInPage = () => {
             >
               Sign In
             </button>
-            <a
-              href="#"
-              className="text-blue-500 font-bold hover:underline"
-            >
-              Forgot Password?
-            </a>
+            
           </div>
           <div className="">
             <Link to="/SignUp"> SignUp</Link>

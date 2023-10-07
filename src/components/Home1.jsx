@@ -61,13 +61,13 @@ export default function Home1() {
                 </ul>
               </div>
               <div className="btn max-sm:flex-col sm:flex">
-                <div className="">
+                {/* <div className="">
                 <button className="p-2   m-2 sm:inline-block sm:mt-0  text-sm bg-sky-500/75 text-white rounded-lg"><Link to="/SignIn"> Sign In</Link>
                  
                 </button></div><div className="">
                 <button className="p-2  m-2 sm:inline-block sm:mt-0  text-sm bg-sky-500/75 text-white rounded-lg"><Link to="/SignUp"> Sign Up For Free</Link>
                  
-                </button></div>
+                </button></div> */}
               </div>
             </div>
           </div>
@@ -87,7 +87,7 @@ export default function Home1() {
               easier , for us to-conduct meetings from various places without
               the need to unequal{" "}
             </p>
-            <button className="p-2 sm:m-3 max-sm:m-1 text-2xl font-medium text-sm bg-sky-500/75 text-white rounded-lg"><Link to="/SignIn">Start Free trial</Link>
+            <button className="p-2 sm:m-3 max-sm:m-1 text-2xl font-medium text-sm bg-sky-500/75 text-white rounded-lg"><Link to="/Home">Start Free trial</Link>
               
             </button>
           </div>

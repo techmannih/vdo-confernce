@@ -10,7 +10,7 @@ const RoomPage=()=>{
         const appID=1900162513;
         const serverSecret="6b7c4babad94cf2d47a5887f6902fcfa"
         const kitToken=
-            ZegoUIKitPrebuilt.generateKitTokenForTest(appID,serverSecret,RoomId,Date.now().toString(),"your name")
+            ZegoUIKitPrebuilt.generateKitTokenForTest(appID,serverSecret,RoomId,Date.now().toString()," Your Name")
         
 
             const zc=ZegoUIKitPrebuilt.create(kitToken)
@@ -18,7 +18,7 @@ const RoomPage=()=>{
                 container:element,
                 sharedLinks:[{
                     name:'Copy Link',
-                    url:`http://localhost:3000/Room/${RoomId}`
+                    url:`https://vdo-confernce.vercel.app/Room/${RoomId}`
 
                 }],
                 scenario:{

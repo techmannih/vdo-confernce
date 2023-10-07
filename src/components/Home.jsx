@@ -34,7 +34,7 @@ const Homepage = () => {
      
         <div className="room_name bg-white w-87 h-69  rounded-2xl shadow-2xl">
         <div className="p-7">
-          <h3 className="text-black text-center py-7 text-3xl font-bold">welcome to veko</h3>
+          <h3 className="text-black text-center py-7 text-3xl font-bold">Welcome to Zexo</h3>
           <div
             className="room flex-column 
          px-5"
@@ -55,9 +55,10 @@ const Homepage = () => {
               start calling
             </button>
             
-	<button onClick={handleLogout}>
+	{/* <button onClick={handleLogout}>
                         Logout
-                    </button></div>
+                    </button> */}
+                    </div>
           </div>
         </div>
       </div>
